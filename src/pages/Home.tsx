@@ -56,18 +56,18 @@ export function Home() {
                     <img src={logoImg} alt="" />
                     <button onClick={handleCreateRoom} className="create-room">
                         <img src={googleIconImg} alt="" />
-                        Crie sua sala
+                        Create your room
                     </button>
-                    <div className="separator">ou entre em uma sala</div>
+                    <div className="separator">or join an existing one</div>
                     <form onSubmit={handleJoinRoom}>
                         <input
                             type="text"
                             placeholder="Digite o código da sala"
                             onChange={event => setRoomCode(event.target.value)}
-                            defaultValue={roomCode}
+                            value={roomCode}
                         />
                         <Button type="submit">
-                            Entrar na sala
+                            Join
                         </Button>
                     </form>
                 </div>

@@ -55,7 +55,7 @@ export function NewRoom() {
                         </Button>
                     </form>
                     <p>
-                        Quer entrar em uma sala existe? <Link to="/">clicke aqui</Link>
+                        Quer entrar em uma sala existente? <Link to="/">Clique aqui.</Link>
                     </p>
                 </div>
             </main>
